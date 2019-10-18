@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_i1dmcBGvEeir5L1K2_IHMw" name="Reason_Code" dataPackage="_i1dmcRGvEeir5L1K2_IHMw" Server="Localhost 127.0.0.1" FilePath="E:/ETL Source Files/VCS Reason Code Mapping - PCMS Updated 12_5_2017.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Reason Code List" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Reason Code List:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_i1dmcRGvEeir5L1K2_IHMw" name="default" dataManager="_i1dmcBGvEeir5L1K2_IHMw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_i1dmchGvEeir5L1K2_IHMw" id="_NBIXcBGvEeir5L1K2_IHMw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i1dmcxGvEeir5L1K2_IHMw" label="PCMS_Reason_Code_Type" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i1dmdBGvEeir5L1K2_IHMw" label="TRAT_Value" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i1dmdRGvEeir5L1K2_IHMw" label="TRAS_Value" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i1dmdhGvEeir5L1K2_IHMw" label="PCMS_Reason_Code_Description" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i1dmdxGvEeir5L1K2_IHMw" label="VCS_Reason_Code" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i1dmeBGvEeir5L1K2_IHMw" label="Parent_Reason_Code" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

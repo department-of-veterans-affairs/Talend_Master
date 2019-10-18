@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_TNtGMSYuEeii-osjLha_4g" name="Session_Event_Type" dataPackage="_TNtGMiYuEeii-osjLha_4g" Server="Localhost 127.0.0.1" FilePath="E:/ETL Source Files/Session_event_Type.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_TNtGMiYuEeii-osjLha_4g" name="default" dataManager="_TNtGMSYuEeii-osjLha_4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TNtGMyYuEeii-osjLha_4g" id="_MTnB4CYuEeii-osjLha_4g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TNtGNCYuEeii-osjLha_4g" label="Constant" length="42" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TNtGNSYuEeii-osjLha_4g" label="Value" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TNtGNiYuEeii-osjLha_4g" label="Description" length="170" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
