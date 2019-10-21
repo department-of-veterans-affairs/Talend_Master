@@ -22,6 +22,7 @@
     <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
@@ -56,7 +57,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;E:/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/vaaacballaj0/Documents/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -104,6 +105,12 @@
     <routinesParameter id="_5CrR9AJ5Eei_S9KX27c20Q" name="TalendDate"/>
     <routinesParameter id="_5C1C8AJ5Eei_S9KX27c20Q" name="TalendStringUtil"/>
     <routinesParameter id="_5CrR-AJ5Eei_S9KX27c20Q" name="TalendString"/>
+    <routinesParameter id="_GrpRmZeKEemjsOeQvT6jTQ" name="DQTechnical"/>
+    <routinesParameter id="_Gq5quZeKEemjsOeQvT6jTQ" name="DataMasking"/>
+    <routinesParameter id="_GrWWppeKEemjsOeQvT6jTQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_GrMloJeKEemjsOeQvT6jTQ" name="DataQuality"/>
+    <routinesParameter id="_Grfgm5eKEemjsOeQvT6jTQ" name="DqStringHandling"/>
+    <routinesParameter id="_Gqv5uZeKEemjsOeQvT6jTQ" name="SQLike"/>
   </parameters>
   <node componentName="tJDBCInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1" show="false"/>
@@ -111,15 +118,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_4rAskBDiEeir5L1K2_IHMw" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@172.17.2.29:1521:CDB2&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@10.226.87.96:1650:CDBDEV&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="db2jcc_license_cu.jar"/>
-      <elementValue elementRef="JAR_NAME" value="jaxp-api.jar"/>
-      <elementValue elementRef="JAR_NAME" value="ojdbc7.jar"/>
+      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="k2kWBncAuLsMuyLwAesO6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="ZMZYGSNCjWdvm8UEI/Al+g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;PRODUCT&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
