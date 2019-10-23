@@ -22,6 +22,7 @@
     <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
@@ -56,7 +57,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;E:/Talend/TOS_DI-20170623_1246-V6.4.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/vaaacballaj0/Documents/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -104,6 +105,12 @@
     <routinesParameter id="_5CrR9AJ5Eei_S9KX27c20Q" name="TalendDate"/>
     <routinesParameter id="_5C1C8AJ5Eei_S9KX27c20Q" name="TalendStringUtil"/>
     <routinesParameter id="_5CrR-AJ5Eei_S9KX27c20Q" name="TalendString"/>
+    <routinesParameter id="_GrpRmZeKEemjsOeQvT6jTQ" name="DQTechnical"/>
+    <routinesParameter id="_Gq5quZeKEemjsOeQvT6jTQ" name="DataMasking"/>
+    <routinesParameter id="_GrWWppeKEemjsOeQvT6jTQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_GrMloJeKEemjsOeQvT6jTQ" name="DataQuality"/>
+    <routinesParameter id="_Grfgm5eKEemjsOeQvT6jTQ" name="DqStringHandling"/>
+    <routinesParameter id="_Gqv5uZeKEemjsOeQvT6jTQ" name="SQLike"/>
   </parameters>
   <node componentName="tJDBCInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1" show="false"/>
@@ -111,16 +118,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hjZ4EBBDEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@172.17.2.29:1521:MREPVCS&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@10.226.84.110:1521:rapdfmw&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="db2jcc.jar"/>
-      <elementValue elementRef="JAR_NAME" value="db2jcc_license_cu.jar"/>
-      <elementValue elementRef="JAR_NAME" value="ojdbc7.jar"/>
-      <elementValue elementRef="JAR_NAME" value="xdb6.jar"/>
+      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="k2kWBncAuLsMuyLwAesO6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="e6Vmk9DUOkEcSsNJ+kHLFQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_hjZ4EBBDEeiVg6h22fzmSQ - VW_INV_ACCOUNTABILITY" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;VW_INV_ACCOUNTABILITY&quot;"/>
@@ -232,7 +236,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_oQTjcI6_EeiNaYG9lqaAeQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_8AetcO6_EemHv6I4O7YYzQ-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
@@ -337,16 +341,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hjZ4EBBDEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@172.17.2.29:1521:MREPVCS&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@10.226.84.110:1521:rapdfmw&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="db2jcc.jar"/>
-      <elementValue elementRef="JAR_NAME" value="db2jcc_license_cu.jar"/>
-      <elementValue elementRef="JAR_NAME" value="ojdbc7.jar"/>
-      <elementValue elementRef="JAR_NAME" value="xdb6.jar"/>
+      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="k2kWBncAuLsMuyLwAesO6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="e6Vmk9DUOkEcSsNJ+kHLFQ=="/>
     <elementParameter field="TEXT" name="TABLE" value="&quot;FACT_INV_ACCOUNTABILITY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="CLEAR_TABLE" value="true"/>
