@@ -117,9 +117,9 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_i1T1cBGvEeir5L1K2_IHMw" show="false"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;E:/ETL Source Files/VCS Reason Code Mapping - PCMS Updated 12_5_2017.xlsx&quot;"/>
-    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
-    <elementParameter field="TABLE" name="SHEETLIST">
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/TalendJobs_25Oct19/Srvc_Files/VCS Reason Code Mapping - PCMS Updated 12_5_2017.xlsx&quot;"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="true"/>
+    <elementParameter field="TABLE" name="SHEETLIST" show="false">
       <elementValue elementRef="SHEETNAME" value="&quot;Reason Code List&quot;"/>
       <elementValue elementRef="USE_REGEX" value=""/>
     </elementParameter>
