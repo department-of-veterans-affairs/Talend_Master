@@ -119,16 +119,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_zU5foA0VEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@172.17.2.29:1521:MREP&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@10.226.87.98:1710:MREPDEV&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\db2jcc.jar"/>
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\db2jcc_license_cu.jar"/>
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\ojdbc7.jar"/>
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\xdb6.jar"/>
+      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="k2kWBncAuLsMuyLwAesO6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="ZMZYGSNCjWdvm8UEI/Al+g=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_zU5foA0VEeiVg6h22fzmSQ - DW_PROD_GRP_L5" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DW_PROD_GRP_L5&quot;"/>
