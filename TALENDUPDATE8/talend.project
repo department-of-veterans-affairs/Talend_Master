@@ -752,6 +752,12 @@
       <relatedItems xmi:id="_Qq-fuvm6Eem_JPwJrE3TvQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Qq-fu_m6Eem_JPwJrE3TvQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Qq-fvPm6Eem_JPwJrE3TvQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_is_ToPm6Eem_JPwJrE3TvQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_is_Tofm6Eem_JPwJrE3TvQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_is_Tovm6Eem_JPwJrE3TvQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_is_To_m6Eem_JPwJrE3TvQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_is_TpPm6Eem_JPwJrE3TvQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_is_Tpfm6Eem_JPwJrE3TvQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/TempJobFolder</deletedFolders>
     <deletedFolders>process/Data_Loads/Data_Loads</deletedFolders>
