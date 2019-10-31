@@ -775,6 +775,7 @@
     <deletedFolders>process/TempJobFolder</deletedFolders>
     <deletedFolders>process/Data_Loads/SecondLoad/Data_Loads</deletedFolders>
     <deletedFolders>process/Data_Loads/SecondLoad</deletedFolders>
+    <deletedFolders>process/Data_Loads/Data_Loads</deletedFolders>
     <migrationTask xmi:id="_GhgeIJeKEemjsOeQvT6jTQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_GhgeIZeKEemjsOeQvT6jTQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_GhgeIpeKEemjsOeQvT6jTQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
