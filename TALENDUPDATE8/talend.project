@@ -770,7 +770,12 @@
       <relatedItems xmi:id="_ARVJq_vcEem0yKpRF9ybiQ" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ARVJrPvcEem0yKpRF9ybiQ" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ARVJrfvcEem0yKpRF9ybiQ" id="_zU5foA0VEeiVg6h22fzmSQ - DW_TILL" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_ARVJrvvcEem0yKpRF9ybiQ" id="_zU5foA0VEeiVg6h22fzmSQ - SD_STORE" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_I7rqoPvcEem0yKpRF9ybiQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_I7rqofvcEem0yKpRF9ybiQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_I7rqovvcEem0yKpRF9ybiQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_I7rqo_vcEem0yKpRF9ybiQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_I7rqpPvcEem0yKpRF9ybiQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_I7rqpfvcEem0yKpRF9ybiQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/TempJobFolder</deletedFolders>
     <deletedFolders>process/Data_Loads/SecondLoad/Data_Loads</deletedFolders>
