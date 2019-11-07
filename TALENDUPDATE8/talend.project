@@ -835,6 +835,12 @@
       <relatedItems xmi:id="_tVHmawEBEeqL65qC4FTRhQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_tVHmbAEBEeqL65qC4FTRhQ" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_tVHmbQEBEeqL65qC4FTRhQ" id="_4rAskBDiEeir5L1K2_IHMw - REASON_TYPE" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_86zh0AEBEeqL65qC4FTRhQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_86zh0QEBEeqL65qC4FTRhQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_86zh0gEBEeqL65qC4FTRhQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_86zh0wEBEeqL65qC4FTRhQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_86zh1AEBEeqL65qC4FTRhQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_86zh1QEBEeqL65qC4FTRhQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/TempJobFolder</deletedFolders>
     <deletedFolders>process/Data_Loads/SecondLoad/Data_Loads</deletedFolders>
