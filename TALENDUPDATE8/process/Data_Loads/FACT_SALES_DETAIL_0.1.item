@@ -878,7 +878,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="9lYagRboJ6fD0kdJN1xlKg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="e6Vmk9DUOkEcSsNJ+kHLFQ=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
