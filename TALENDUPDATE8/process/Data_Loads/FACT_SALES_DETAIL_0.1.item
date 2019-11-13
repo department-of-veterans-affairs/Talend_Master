@@ -870,6 +870,11 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
   </node>
+  <node componentName="tJDBCClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCClose_1" show="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tJDBCInput_1" offsetLabelX="0" offsetLabelY="0" source="tJDBCInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
@@ -878,8 +883,16 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJDBCOutput_1" offsetLabelX="0" offsetLabelY="0" source="tJDBCOutput_1" target="tJDBCClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCClose_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
