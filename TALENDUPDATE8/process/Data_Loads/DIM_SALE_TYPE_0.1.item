@@ -128,8 +128,6 @@
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7ArDIBbIEeqTqtzqyTJZyw - Sale_Type_metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/vaaacballaj0/Documents&quot;" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
@@ -164,8 +162,8 @@
     <elementParameter field="TEXT" name="LABEL" value="Sale_Type"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Sale_Type_metadata" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="1" name="KEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="KEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Sale_Type_metadata" name="REJECT">
@@ -217,8 +215,8 @@
         <mapperTableEntries name="MODIFIED_DATE" expression="TalendDate.getCurrentDate() " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="KEY" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="CODE" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="KEY" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="CODE" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="DESC" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
