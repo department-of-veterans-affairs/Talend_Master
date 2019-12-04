@@ -112,53 +112,68 @@
     <routinesParameter id="_Grfgm5eKEemjsOeQvT6jTQ" name="DqStringHandling"/>
     <routinesParameter id="_Gqv5uZeKEemjsOeQvT6jTQ" name="SQLike"/>
   </parameters>
-  <node componentName="tJDBCInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_zU5foA0VEeiVg6h22fzmSQ" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsdev81.aac.va.gov:1710:MREPDEV&quot;"/>
-    <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/TalendJobs_25Oct19/Srvc_Files/Sale_Type.csv&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_7ArDIBbIEeqTqtzqyTJZyw - Sale_Type_metadata" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/vaaacballaj0/Documents&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="KEY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
-    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="ZMZYGSNCjWdvm8UEI/Al+g=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;DW_TRANS_TYPE&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  PCMSDM.DW_TRANS_TYPE.TTYP_KEY, &#xA;  PCMSDM.DW_TRANS_TYPE.TTYP_TRANS_TYPE, &#xA;  PCMSDM.DW_TRANS_TYPE.TTYP_DESCRIPTION&#xA;FROM PCMSDM.DW_TRANS_TYPE&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
-    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="TTYP_KEY"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TTYP_TRANS_TYPE"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TTYP_DESCRIPTION"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TTYP_TRANSLATION"/>
-      <elementValue elementRef="TRIM" value="false"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="KEY"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODE"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESC"/>
+      <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="ENABLE_MAPPING" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sale_Type"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJDBCInput_1">
-      <column comment="" defaultValue="" key="false" length="38" name="TTYP_KEY" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="38" name="TTYP_TRANS_TYPE" nullable="false" pattern="" precision="0" sourceType="DEC" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="30" name="TTYP_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="0" name="TTYP_TRANSLATION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <additionalProperties key="Comment" value=""/>
+    <metadata connector="FLOW" label="Sale_Type_metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="1" name="KEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="Sale_Type_metadata" name="REJECT">
+      <column comment="" key="false" length="1" name="KEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="64">
@@ -192,20 +207,19 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Out1">
-        <mapperTableEntries name="SALE_TYPE_KEY" expression=" row1.TTYP_KEY " type="id_BigDecimal"/>
-        <mapperTableEntries name="SALE_TYPE_CODE" expression="row1.TTYP_TRANS_TYPE " type="id_BigDecimal"/>
-        <mapperTableEntries name="SALE_TYPE_DESC" expression="row1.TTYP_DESCRIPTION " type="id_String"/>
+        <mapperTableEntries name="SALE_TYPE_KEY" expression=" row1.TTYP_KEY  row1.KEY " type="id_BigDecimal"/>
+        <mapperTableEntries name="SALE_TYPE_CODE" expression="row1.TTYP_TRANS_TYPE  row1.CODE " type="id_BigDecimal"/>
+        <mapperTableEntries name="SALE_TYPE_DESC" expression="row1.TTYP_DESCRIPTION  row1.DESC " type="id_String"/>
         <mapperTableEntries name="CREATED_DATE" expression="TalendDate.getCurrentDate() " type="id_Date"/>
         <mapperTableEntries name="MODIFIED_DATE" expression="TalendDate.getCurrentDate() " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="TTYP_KEY" type="id_BigDecimal"/>
-        <mapperTableEntries name="TTYP_TRANS_TYPE" type="id_BigDecimal"/>
-        <mapperTableEntries name="TTYP_DESCRIPTION" type="id_String"/>
-        <mapperTableEntries name="TTYP_TRANSLATION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="KEY" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CODE" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="DESC" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -305,7 +319,7 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tJDBCInput_1" offsetLabelX="0" offsetLabelY="0" source="tJDBCInput_1" target="tMap_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
@@ -314,7 +328,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Out1" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
