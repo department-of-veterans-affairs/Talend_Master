@@ -162,8 +162,8 @@
     <elementParameter field="TEXT" name="LABEL" value="Sale_Type"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Sale_Type_metadata" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="1" name="KEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="3" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="KEY" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="DESC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Sale_Type_metadata" name="REJECT">
@@ -187,10 +187,10 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="DIM_SALE_TYPE" name="Out1">
-      <column comment="" key="false" length="38" name="SALE_TYPE_KEY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="38" name="SALE_TYPE_KEY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="38" name="SALE_TYPE_CODE" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="38" name="SALE_TYPE_CODE" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="SALE_TYPE_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -208,15 +208,15 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Out1">
-        <mapperTableEntries name="SALE_TYPE_KEY" expression="row1.KEY " type="id_BigDecimal"/>
-        <mapperTableEntries name="SALE_TYPE_CODE" expression="row1.CODE " type="id_BigDecimal"/>
+        <mapperTableEntries name="SALE_TYPE_KEY" expression="row1.KEY " type="id_Integer"/>
+        <mapperTableEntries name="SALE_TYPE_CODE" expression="row1.CODE " type="id_Integer"/>
         <mapperTableEntries name="SALE_TYPE_DESC" expression="row1.DESC " type="id_String"/>
         <mapperTableEntries name="CREATED_DATE" expression="TalendDate.getCurrentDate() " type="id_Date"/>
         <mapperTableEntries name="MODIFIED_DATE" expression="TalendDate.getCurrentDate() " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="KEY" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="CODE" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="KEY" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CODE" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="DESC" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
@@ -279,10 +279,10 @@
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="DIM_SALE_TYPE" name="tJDBCOutput_1">
-      <column comment="" key="false" length="38" name="SALE_TYPE_KEY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="38" name="SALE_TYPE_KEY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="38" name="SALE_TYPE_CODE" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="38" name="SALE_TYPE_CODE" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="SALE_TYPE_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -297,10 +297,10 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
     <metadata connector="REJECT" label="DIM_SALE_TYPE" name="REJECT">
-      <column comment="" key="false" length="38" name="SALE_TYPE_KEY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="38" name="SALE_TYPE_KEY" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="38" name="SALE_TYPE_CODE" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="38" name="SALE_TYPE_CODE" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="50" name="SALE_TYPE_DESC" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
