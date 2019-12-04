@@ -474,6 +474,8 @@
       <relatedItems xmi:id="_ajYKAxbLEeqTqtzqyTJZyw" id="DataQuality" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ajYKBBbLEeqTqtzqyTJZyw" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ajYKBRbLEeqTqtzqyTJZyw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_XhkT8BbNEeqTqtzqyTJZyw" id="_7ArDIBbIEeqTqtzqyTJZyw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_XhkT8RbNEeqTqtzqyTJZyw" id="_7ArDIBbIEeqTqtzqyTJZyw - Sale_Type_metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_BfzBjPHREemJotc-iqyi-A">
       <baseItem xmi:id="_BfzBjfHREemJotc-iqyi-A" id="_jAr8oDE4EeiQ5_4NTYxwRA" version="0.1" type="job"/>
