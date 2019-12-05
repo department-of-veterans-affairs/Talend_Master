@@ -868,6 +868,12 @@
       <relatedItems xmi:id="_04YYihdzEeq1Wb-I0s_Jzg" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_04YYixdzEeq1Wb-I0s_Jzg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_04YYjBdzEeq1Wb-I0s_Jzg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__HvvgBdzEeq1Wb-I0s_Jzg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__HvvgRdzEeq1Wb-I0s_Jzg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__HvvghdzEeq1Wb-I0s_Jzg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__HvvgxdzEeq1Wb-I0s_Jzg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__HvvhBdzEeq1Wb-I0s_Jzg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="__HvvhRdzEeq1Wb-I0s_Jzg" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/TempJobFolder</deletedFolders>
     <deletedFolders>process/Data_Loads/SecondLoad/Data_Loads</deletedFolders>
