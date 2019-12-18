@@ -984,6 +984,12 @@
       <relatedItems xmi:id="_IYe7GiE4EeqimvCWEiI6lg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_IYe7GyE4EeqimvCWEiI6lg" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_IYe7HCE4EeqimvCWEiI6lg" id="_hjZ4EBBDEeiVg6h22fzmSQ - VW_SALES_DETAIL" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_BNDSUCE8EeqimvCWEiI6lg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BNDSUSE8EeqimvCWEiI6lg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BNDSUiE8EeqimvCWEiI6lg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BNDSUyE8EeqimvCWEiI6lg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BNDSVCE8EeqimvCWEiI6lg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BNDSVSE8EeqimvCWEiI6lg" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_IZiD8CE4EeqimvCWEiI6lg">
       <baseItem xmi:id="_IZiD8SE4EeqimvCWEiI6lg" id="_rtRMgCI1Eeii-osjLha_4g" version="0.1" type="job"/>
