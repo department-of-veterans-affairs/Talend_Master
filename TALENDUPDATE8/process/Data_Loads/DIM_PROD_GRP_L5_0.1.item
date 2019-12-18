@@ -22,6 +22,7 @@
     <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
     <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
     <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
@@ -109,6 +110,8 @@
     <routinesParameter id="_da9kYDMXEeOTIuq5eWZPow" name="MDM"/>
     <routinesParameter id="_dbM08DMXEeOTIuq5eWZPow" name="SQLike"/>
     <routinesParameter id="_5C1C8AJ5Eei_S9KX27c20Q" name="TalendStringUtil"/>
+    <routinesParameter id="_Gq5quZeKEemjsOeQvT6jTQ" name="DataMasking"/>
+    <routinesParameter id="_GrWWppeKEemjsOeQvT6jTQ" name="DataQualityDependencies"/>
   </parameters>
   <node componentName="tJDBCInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJDBCInput_1" show="false"/>
@@ -116,16 +119,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_zU5foA0VEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@172.17.2.29:1521:MREP&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsdev81.aac.va.gov:1710:MREPDEV&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\db2jcc.jar"/>
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\db2jcc_license_cu.jar"/>
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\ojdbc7.jar"/>
-      <elementValue elementRef="JAR_NAME" value="E:\Talend\TOS_DI-20170623_1246-V6.4.1\lib\java\xdb6.jar"/>
+      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="k2kWBncAuLsMuyLwAesO6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="ZMZYGSNCjWdvm8UEI/Al+g=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_zU5foA0VEeiVg6h22fzmSQ - DW_PROD_GRP_L5" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;DW_PROD_GRP_L5&quot;"/>
@@ -328,16 +328,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hjZ4EBBDEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@172.17.2.29:1521:MREPVCS&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausdbspos802.aac.va.gov:1710:posb2dev&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
-      <elementValue elementRef="JAR_NAME" value="db2jcc.jar"/>
-      <elementValue elementRef="JAR_NAME" value="db2jcc_license_cu.jar"/>
-      <elementValue elementRef="JAR_NAME" value="ojdbc7.jar"/>
-      <elementValue elementRef="JAR_NAME" value="xdb6.jar"/>
+      <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="k2kWBncAuLsMuyLwAesO6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="2FYT9KGu1zc/G7igNYheIg=="/>
     <elementParameter field="TEXT" name="TABLE" value="&quot;DIM_PROD_GRP_L5&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="CLEAR_TABLE" value="true"/>
