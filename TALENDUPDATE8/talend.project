@@ -578,6 +578,12 @@
       <relatedItems xmi:id="_IDoFayE4EeqimvCWEiI6lg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_IDoFbCE4EeqimvCWEiI6lg" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_IDoFbSE4EeqimvCWEiI6lg" id="_TNtGMCYuEeii-osjLha_4g - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_7Bx4UCE6EeqimvCWEiI6lg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7Bx4USE6EeqimvCWEiI6lg" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7Bx4UiE6EeqimvCWEiI6lg" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7Bx4UyE6EeqimvCWEiI6lg" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7Bx4VCE6EeqimvCWEiI6lg" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_7Bx4VSE6EeqimvCWEiI6lg" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_IEqnMCE4EeqimvCWEiI6lg">
       <baseItem xmi:id="_IEqnMSE4EeqimvCWEiI6lg" id="_zt6ScC7IEeiQ5_4NTYxwRA" version="0.1" type="job"/>
