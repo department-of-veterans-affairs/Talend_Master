@@ -119,7 +119,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_zU5foA0VEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsdev81.aac.va.gov:1710:MREPDEV&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsppd42.aac.va.gov:1710:MREPPPD&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
