@@ -193,7 +193,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="DIM_SEEV_TYPE" name="out1">
-      <column comment="" key="false" length="2" name="SEEV_TYPE_VALUE" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="2" name="SEEV_TYPE_VALUE" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="255" name="SEEV_TYPE_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -208,7 +208,7 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="SEEV_TYPE_VALUE" expression="row1.Value " type="id_String"/>
@@ -277,7 +277,7 @@
     <elementParameter field="TEXT" name="LABEL" value="DIM_SEEV_TYPE"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="DIM_SEEV_TYPE" name="tJDBCOutput_1">
-      <column comment="" key="false" length="2" name="SEEV_TYPE_VALUE" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="2" name="SEEV_TYPE_VALUE" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="255" name="SEEV_TYPE_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -292,7 +292,7 @@
       <additionalProperties key="Comment" value=""/>
     </metadata>
     <metadata connector="REJECT" label="DIM_SEEV_TYPE" name="REJECT">
-      <column comment="" key="false" length="2" name="SEEV_TYPE_VALUE" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="true" length="2" name="SEEV_TYPE_VALUE" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="255" name="SEEV_TYPE_DESCRIPTION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
