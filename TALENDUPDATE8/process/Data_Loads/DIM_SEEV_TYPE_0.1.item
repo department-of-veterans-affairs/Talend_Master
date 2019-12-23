@@ -238,7 +238,7 @@
     <elementParameter field="PASSWORD" name="PASS" value="2FYT9KGu1zc/G7igNYheIg=="/>
     <elementParameter field="TEXT" name="TABLE" value="&quot;DIM_SEEV_TYPE&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
-    <elementParameter field="CHECK" name="CLEAR_TABLE" value="false"/>
+    <elementParameter field="CHECK" name="CLEAR_TABLE" value="true"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
