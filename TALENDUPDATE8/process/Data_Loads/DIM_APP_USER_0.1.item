@@ -118,7 +118,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_4rAskBDiEeir5L1K2_IHMw" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsppd41.aac.va.gov:1650:CDBPPD&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsdev82.aac.va.gov:1650:CDBDEV&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
@@ -374,7 +374,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_4rAskBDiEeir5L1K2_IHMw" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsppd41.aac.va.gov:1650:CDBPPD&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsdev82.aac.va.gov:1650:CDBDEV&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
