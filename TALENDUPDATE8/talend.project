@@ -756,8 +756,13 @@
       <relatedItems xmi:id="_BVUGuiwiEeqbjPmDS9O3mQ" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BVUGuywiEeqbjPmDS9O3mQ" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BVUGvCwiEeqbjPmDS9O3mQ" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_BVUGvSwiEeqbjPmDS9O3mQ" id="_hjZ4EBBDEeiVg6h22fzmSQ - DIM_STORE" version="Latest" type="schema"/>
       <relatedItems xmi:id="_BVUGviwiEeqbjPmDS9O3mQ" id="_zU5foA0VEeiVg6h22fzmSQ - SD_STORE_GROUP" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_C7P30CwkEeqbjPmDS9O3mQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_C7P30SwkEeqbjPmDS9O3mQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_C7P30iwkEeqbjPmDS9O3mQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_C7P30ywkEeqbjPmDS9O3mQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_C7P31CwkEeqbjPmDS9O3mQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_C7P31SwkEeqbjPmDS9O3mQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_BVUGvywiEeqbjPmDS9O3mQ">
       <baseItem xmi:id="_BVUGwCwiEeqbjPmDS9O3mQ" id="_K3XtYCYuEeii-osjLha_4g" version="0.1" type="job"/>
