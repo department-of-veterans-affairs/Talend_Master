@@ -118,13 +118,13 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_4rAskBDiEeir5L1K2_IHMw" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsprd21.aac.va.gov:1650:CDBPRD&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausposdbsdev82.aac.va.gov:1650:CDBDEV&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;oracle.jdbc.OracleDriver&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;pcmsdm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="1FcW3FO4LZxLrs+eGkSlMQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="ZMZYGSNCjWdvm8UEI/Al+g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CUSTOMER_ACCOUNT&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
