@@ -646,6 +646,8 @@
       <relatedItems xmi:id="_BPDtwiwiEeqbjPmDS9O3mQ" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BPDtwywiEeqbjPmDS9O3mQ" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BPDtxCwiEeqbjPmDS9O3mQ" id="_zU5foA0VEeiVg6h22fzmSQ - DW_PROD_GRP_L5" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_olZlcCwjEeqbjPmDS9O3mQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_olZlcSwjEeqbjPmDS9O3mQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_BQQAgCwiEeqbjPmDS9O3mQ">
       <baseItem xmi:id="_BQQAgSwiEeqbjPmDS9O3mQ" id="_8vwP8C7UEeiQ5_4NTYxwRA" version="0.1" type="job"/>
