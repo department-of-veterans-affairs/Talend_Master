@@ -443,6 +443,12 @@
       <relatedItems xmi:id="_BDR7iiwiEeqbjPmDS9O3mQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BDR7iywiEeqbjPmDS9O3mQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BDR7jCwiEeqbjPmDS9O3mQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Mz50cCwjEeqbjPmDS9O3mQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Mz50cSwjEeqbjPmDS9O3mQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Mz50ciwjEeqbjPmDS9O3mQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Mz50cywjEeqbjPmDS9O3mQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Mz50dCwjEeqbjPmDS9O3mQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Mz50dSwjEeqbjPmDS9O3mQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_BEeOUCwiEeqbjPmDS9O3mQ">
       <baseItem xmi:id="_BEeOUSwiEeqbjPmDS9O3mQ" id="_Wdg7EDaKEeiQ5_4NTYxwRA" version="0.1" type="job"/>
