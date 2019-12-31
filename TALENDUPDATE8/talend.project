@@ -881,6 +881,12 @@
       <relatedItems xmi:id="_Ba042ywiEeqbjPmDS9O3mQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Ba043CwiEeqbjPmDS9O3mQ" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Ba043SwiEeqbjPmDS9O3mQ" id="_zU5foA0VEeiVg6h22fzmSQ - DW_TIME_BAND" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_NhbMUCwkEeqbjPmDS9O3mQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_NhbMUSwkEeqbjPmDS9O3mQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_NhbMUiwkEeqbjPmDS9O3mQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_NhbMUywkEeqbjPmDS9O3mQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_NhbMVCwkEeqbjPmDS9O3mQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_NhbMVSwkEeqbjPmDS9O3mQ" id="DataQualityDependencies" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_Bb4BsCwiEeqbjPmDS9O3mQ">
       <baseItem xmi:id="_Bb4BsSwiEeqbjPmDS9O3mQ" id="_zYSS8O6bEemphdb1fwH3mA" version="0.1" type="job"/>
