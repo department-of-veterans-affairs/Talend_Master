@@ -376,7 +376,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hjZ4EBBDEeiVg6h22fzmSQ" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausdbspos202.aac.va.gov:1721:posb2prd&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;jdbc:oracle:thin:@vaausdbspos802.aac.va.gov:1710:posb2dev&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR">
       <elementValue elementRef="JAR_NAME" value="ojdbc6.jar"/>
     </elementParameter>
